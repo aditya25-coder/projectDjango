@@ -1,0 +1,15 @@
+<h1>good night!</h1>
+<h1>If you want to copy a paragraph from google use the below link</h1>
+<a href="{% url 'home' %}">HomePage</a>
+<a href ="http://www.google.com">&#9 Google</a>
+<h1>there are {{count }} words</h1>
+<h2>original texts</h2>
+{{ res }}
+{% for words,countdict in sortedlist %}
+{{ words }}
+
+{{ countdict }}
+<br />
+
+{% endfor %}
+{{ sortedlist }}
